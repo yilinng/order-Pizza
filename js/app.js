@@ -206,7 +206,7 @@ Array.from(document.querySelectorAll('.order'));
     							totalThis.children[0].textContent = priceTable.textContent;
 						    }
 					});
-			    	
+			    	priceChange();
 			    }else{
 			    	//console.log('have the diff one');
 			    	orderItem (e);
